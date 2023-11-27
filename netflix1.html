@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="javascript" href="./js/bootstrap.js" />
+    <link rel="stylesheet" href="./netflix1.css" />
+  </head>
+  <body>
+    <div class="superdiv">
+      <div class="main">
+        <!-- header -->
+
+        <header>
+          <div class="logodiv">
+            <img
+              class="img1"
+              height="100px"
+              width="200px"
+              src="./images/logo.png"
+              alt="" />
+          </div>
+          <div class="logodiv2">
+            <select data-uia="language-picker-header">
+              <option>English</option>
+              <option>हिन्दी</option>
+            </select>
+            <button class="signinbutton"><a href="./sign.html">Sign in</a></button>
+          </div>
+        </header>
+
+        <!-- main div shadow and emaildiv -->
+
+        <!--for shadow effect -->
+        <div class="opacitydiv"></div>
+
+        <div class="emaildiv">
+          <h1 class="mainhead" style="color: white">
+            The biggest Indian hits. The best Indian stories. All streaming
+            here.
+          </h1>
+          <p>Watch anywhere. Cancel anytime.</p>
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <!-- the div for email and button  -->
+          <div class="container-fluid emaildiv2sub1sub">
+            <div
+              style="
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+              ">
+              <input placeholder="Email address" type="text" />
+              <button class="getstartbutton">
+                Get started <span style="font-size: 20px">></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 4 similar divs  -->
+      <!-- 1 -->
+      <div class="similardiv">
+        <div class="child1">
+          <h1>Enjoy on your TV</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+        <div class="child2">
+          <img src="./images/img5.png" height="100%" width="100%" alt="" />
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="similardiv">
+        <div class="child2">
+          <img src="./images/img4.jpg" height="100%" width="100%" alt="" />
+        </div>
+        <div class="child1">
+          <h1>Enjoy on your TV</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="similardiv">
+        <div class="child1">
+          <h1>Enjoy on your TV</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+        <div class="child2">
+          <img src="./images/img2.jpg" height="100%" width="100%" alt="" />
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="similardiv">
+        <div class="child2">
+          <img src="./images/img3.png" height="100%" width="100%" alt="" />
+        </div>
+        <div class="child1">
+          <h1>Enjoy on your TV</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- last div  -->
+    <div style="background-color: black" class="lastdiv">
+      <h1 style="display: flex; align-items: center; justify-content: center">
+        Frequently asked question
+      </h1>
+      <div
+        style="
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(0, 0, 0, 0.705);
+        ">
+        <p>What is Netflix?</p>
+<!-- 1 -->
+        <span style="font-size: 40px"
+          ><a
+            onclick="document.getElementById('demo').innerHTML='Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.'"
+            style="text-decoration: none; color: white"
+            >+</a
+          ></span
+        >
+      </div>
+      <span
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(48, 47, 47, 0.705);
+        ">
+        <p id="demo"></p
+      ></span>
+<!-- 2 -->
+
+
+      <div
+        style="
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(0, 0, 0, 0.705);
+        ">
+        <p>How much does Netflix cost?</p>
+
+        <span style="font-size: 40px"
+          ><a
+            onclick="document.getElementById('demo1').innerHTML='Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.'"
+            style="text-decoration: none; color: white"
+            >+</a
+          ></span
+        >
+      </div>
+      <span
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(48, 47, 47, 0.705);
+        "
+        ><p id="demo1"></p
+      ></span>
+<!-- 3 -->
+
+      <div
+        style="
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(0, 0, 0, 0.705);
+        ">
+        <p>How do I cancel?</p>
+
+        <span style="font-size: 40px"
+          ><a
+            onclick="document.getElementById('demo2').innerHTML='Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.'"
+            style="text-decoration: none; color: white"
+            >+</a
+          ></span
+        >
+      </div>
+      <span
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(48, 47, 47, 0.705);
+        "
+        ><p id="demo2"></p
+      ></span>
+<!-- 4 -->
+
+      <div
+        style="
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(0, 0, 0, 0.705);
+        ">
+        <p>How do I cancel?</p>
+
+        <span style="font-size: 40px"
+          ><a
+            onclick="document.getElementById('demo3').innerHTML='Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.'"
+            style="text-decoration: none; color: white"
+            >+</a
+          ></span
+        >
+      </div>
+      <span
+        style="
+          display: flex;
+          align-items: center;
+          padding: 0px 10px 0px 10px;
+          margin: 0px 10px;
+          background-color: rgba(48, 47, 47, 0.705);
+        "
+        ><p id="demo3"></p
+      ></span>
+
+
+
+
+      <div style="margin-top: 20px;" class="container-fluid emaildiv2sub1sub">
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+          ">
+          <input placeholder="Email address" type="text" />
+          <button class="getstartbutton">
+            Get started <span style="font-size: 20px">></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- footer  -->
+    <div class="footer">
+      <h2>Questions? call 000-820-912-1679</h2>
+      <div class="row">
+        <div class="col">
+          <a href="#">FAQ</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Privcy</a>
+          <a href="#">Speed Test</a>
+        </div>
+        <div class="col">
+          <a href="#">Help center</a>
+          <a href="#">Jobs</a>
+          <a href="#">Cookies Preferences</a>
+          <a href="#">Legal Notices</a>
+        </div>
+        <div class="col">
+          <a href="#">Account</a>
+          <a href="#">Ways to watch</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Only on Netflix</a>
+        </div>
+        <div class="col">
+          <a href="#">Media Center</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Contact us</a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
