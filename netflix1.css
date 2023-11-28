@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   color: white;
+  font-family: "poppins", sans-serif;
 }
 
 a {
@@ -269,4 +270,9 @@ input {
   color: #ffffff;
   font-size: 14px;
   margin-bottom: 10px;
+}
+.span {
+  display: none;
+  border-radius: 10px;
+  text-align: justify;
 }

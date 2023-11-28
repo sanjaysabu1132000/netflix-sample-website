@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>netflix1sample</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="javascript" href="./js/bootstrap.js" />
     <link rel="stylesheet" href="./netflix1.css" />
@@ -27,7 +27,9 @@
               <option>English</option>
               <option>हिन्दी</option>
             </select>
-            <button class="signinbutton"><a href="./sign.html">Sign in</a></button>
+            <button class="signinbutton">
+              <a href="./sign.html">Sign in</a>
+            </button>
           </div>
         </header>
 
@@ -134,16 +136,15 @@
           background-color: rgba(0, 0, 0, 0.705);
         ">
         <p>What is Netflix?</p>
-<!-- 1 -->
-        <span style="font-size: 40px"
-          ><a
-            onclick="document.getElementById('demo').innerHTML='Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.'"
-            style="text-decoration: none; color: white"
+        <!-- 1 -->
+        <span class="s" style="font-size: 40px"
+          ><a onclick="handle()" style="text-decoration: none; color: white"
             >+</a
           ></span
         >
       </div>
       <span
+        class="span"
         style="
           display: flex;
           justify-content: space-between;
@@ -154,8 +155,7 @@
         ">
         <p id="demo"></p
       ></span>
-<!-- 2 -->
-
+      <!-- 2 -->
 
       <div
         style="
@@ -170,14 +170,13 @@
         <p>How much does Netflix cost?</p>
 
         <span style="font-size: 40px"
-          ><a
-            onclick="document.getElementById('demo1').innerHTML='Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.'"
-            style="text-decoration: none; color: white"
+          ><a onclick="handle1()" style="text-decoration: none; color: white"
             >+</a
           ></span
         >
       </div>
       <span
+        class="span"
         style="
           display: flex;
           justify-content: space-between;
@@ -188,7 +187,7 @@
         "
         ><p id="demo1"></p
       ></span>
-<!-- 3 -->
+      <!-- 3 -->
 
       <div
         style="
@@ -200,17 +199,16 @@
           margin: 0px 10px;
           background-color: rgba(0, 0, 0, 0.705);
         ">
-        <p>How do I cancel?</p>
+        <p>Where can I watch?</p>
 
         <span style="font-size: 40px"
-          ><a
-            onclick="document.getElementById('demo2').innerHTML='Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.'"
-            style="text-decoration: none; color: white"
+          ><a onclick="handle2()" style="text-decoration: none; color: white"
             >+</a
           ></span
         >
       </div>
       <span
+        class="span"
         style="
           display: flex;
           justify-content: space-between;
@@ -221,7 +219,7 @@
         "
         ><p id="demo2"></p
       ></span>
-<!-- 4 -->
+      <!-- 4 -->
 
       <div
         style="
@@ -236,14 +234,13 @@
         <p>How do I cancel?</p>
 
         <span style="font-size: 40px"
-          ><a
-            onclick="document.getElementById('demo3').innerHTML='Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.'"
-            style="text-decoration: none; color: white"
+          ><a onclick="handle3()" style="text-decoration: none; color: white"
             >+</a
           ></span
         >
       </div>
       <span
+        class="span"
         style="
           display: flex;
           align-items: center;
@@ -254,10 +251,7 @@
         ><p id="demo3"></p
       ></span>
 
-
-
-
-      <div style="margin-top: 20px;" class="container-fluid emaildiv2sub1sub">
+      <div style="margin-top: 20px" class="container-fluid emaildiv2sub1sub">
         <div
           style="
             display: flex;
@@ -306,5 +300,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
+    <script src="./netflix1.js"></script>
   </body>
 </html>
